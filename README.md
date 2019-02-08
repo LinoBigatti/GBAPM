@@ -8,7 +8,7 @@ Follow these instructions to build the tool from source.
 
 ### Prerequisites
 
-Install python 3.6 or superior:
+Install python 3.6.7:
 
 #### Windows
 

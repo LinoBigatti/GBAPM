@@ -10,26 +10,31 @@
    'C:\\GBAPM\\target\\PyInstaller\\GBA_Palette_Manager\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'C:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python36_64\\lib\\struct.pyo',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\struct.pyo',
    'PYMODULE'),
   ('pyimod01_os_path',
-   'c:\\gbapm\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
    'PYMODULE'),
   ('pyimod02_archive',
-   'c:\\gbapm\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
    'PYMODULE'),
   ('pyimod03_importers',
-   'c:\\gbapm\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   'c:\\gbapm\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('fbs_pyinstaller_hook',
-   'C:\\Users\\PIRATA\\AppData\\Local\\Temp\\tmpog8anpl4\\fbs_pyinstaller_hook.py',
+   'C:\\Users\\PIRATA\\AppData\\Local\\Temp\\tmp4mnodkai\\fbs_pyinstaller_hook.py',
    'PYSOURCE'),
   ('pyi_rth_qt5',
-   'c:\\gbapm\\venv\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_qt5.py',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_qt5.py',
    'PYSOURCE'),
   ('main', 'C:\\GBAPM\\src\\main\\python\\main.py', 'PYSOURCE'),
   ('GBA_Palette_Manager.exe.manifest',
