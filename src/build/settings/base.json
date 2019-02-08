@@ -1,0 +1,6 @@
+{
+    "app_name": "GBA_Palette_Manager",
+    "author": "L!no",
+    "main_module": "src/main/python/main.py",
+    "version": "0.0.0"
+}
