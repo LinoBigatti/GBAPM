@@ -10,6 +10,7 @@ from Rgb5toU16 import *
 from Rgb5toU32 import *
 from globals import *
 from Export import *
+from JPAL import *
 
 main_app = QApplication([])
 main_root = QWidget()
@@ -43,10 +44,13 @@ def main_window():
     show_pal_index_button = QPushButton("Show the current palette index color.")
     show_pal_index_button.clicked.connect(showpalindex)
     
-    save_file_button = QPushButton("Save.")
+    save_file_button = QPushButton("Save as json.")
     save_file_button.clicked.connect(savefile)
     
-    export_button = QPushButton("Export.")
+    pal_save_button = QPushButton("Export to pal.")
+    pal_save_button.clicked.connect(savepalfile)
+    
+    export_button = QPushButton("Export to C.")
     export_button.clicked.connect(exportfile)
     
     layout0.addWidget(open_file_button)
@@ -59,6 +63,7 @@ def main_window():
     layout2.addWidget(show_pal_index_button)
     
     layout3.addWidget(save_file_button)
+    layout3.addWidget(pal_save_button)
     layout3.addWidget(export_button)
     
     layout.addLayout(layout0)
@@ -105,6 +110,12 @@ def savefile():
         f.write(json.dumps(data, ensure_ascii = False))
         
         f.close()
+
+def savepalfile():
+    filedialog = QFileDialog
+    filepath = filedialog.getSaveFileName(main_root, 'Save file', 'c:\\', "Palette files (*.pal)")
+    
+    ArraytoJascPal(pal, pal_index_counter + 1, filepath[0])
 
 def exportfile():
     export_handler(pal_index_counter + 1)
