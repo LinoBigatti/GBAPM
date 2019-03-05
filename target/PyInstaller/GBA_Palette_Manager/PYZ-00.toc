@@ -1,9 +1,5 @@
 ('C:\\GBAPM\\target\\PyInstaller\\GBA_Palette_Manager\\PYZ-00.pyz',
- [('ntpath',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\ntpath.py',
-   'PYMODULE'),
-  ('_strptime',
+ [('_strptime',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\_strptime.py',
    'PYMODULE'),
@@ -11,17 +7,21 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\datetime.py',
    'PYMODULE'),
+  ('ntpath',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('_compat_pickle',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\pickle.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('__future__',
    'c:\\program files (x86)\\microsoft visual '
@@ -239,6 +239,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\uu.py',
    'PYMODULE'),
+  ('quopri',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\quopri.py',
+   'PYMODULE'),
   ('email.feedparser',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\email\\feedparser.py',
@@ -286,6 +290,10 @@
   ('email.charset',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\base64.py',
    'PYMODULE'),
   ('email._encoded_words',
    'c:\\program files (x86)\\microsoft visual '
@@ -339,9 +347,17 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\email\\message.py',
    'PYMODULE'),
+  ('bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\bz2.py',
+   'PYMODULE'),
   ('lzma',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\_compression.py',
    'PYMODULE'),
   ('gzip',
    'c:\\program files (x86)\\microsoft visual '
@@ -375,6 +391,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\pydoc.py',
    'PYMODULE'),
+  ('getopt',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\getopt.py',
+   'PYMODULE'),
   ('pdb',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\pdb.py',
@@ -395,10 +415,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\logging\\__init__.py',
    'PYMODULE'),
-  ('pprint',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\pprint.py',
-   'PYMODULE'),
   ('unittest.case',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\unittest\\case.py',
@@ -406,10 +422,6 @@
   ('unittest.suite',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest.loader',
    'c:\\program files (x86)\\microsoft visual '
@@ -435,6 +447,18 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\doctest.py',
    'PYMODULE'),
+  ('pprint',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('token',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\token.py',
@@ -442,6 +466,14 @@
   ('textwrap',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\gettext.py',
    'PYMODULE'),
   ('argparse',
    'c:\\program files (x86)\\microsoft visual '
@@ -451,41 +483,9 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\tokenize.py',
    'PYMODULE'),
-  ('_compression',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\_compression.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\bz2.py',
-   'PYMODULE'),
-  ('stringprep',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\quopri.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\struct.py',
-   'PYMODULE'),
   ('copy',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\copy.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\gettext.py',
-   'PYMODULE'),
-  ('getopt',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\getopt.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\base64.py',
    'PYMODULE'),
   ('stat',
    'c:\\program files (x86)\\microsoft visual '
@@ -535,6 +535,7 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\os.py',
    'PYMODULE'),
+  ('log', 'C:\\GBAPM\\src\\main\\python\\log.py', 'PYMODULE'),
   ('Export', 'C:\\GBAPM\\src\\main\\python\\Export.py', 'PYMODULE'),
   ('ArraytoGba', 'C:\\GBAPM\\src\\main\\python\\ArraytoGba.py', 'PYMODULE'),
   ('globals', 'C:\\GBAPM\\src\\main\\python\\globals.py', 'PYMODULE'),
@@ -544,10 +545,11 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\site-packages\\PyQt5\\__init__.py',
    'PYMODULE'),
-  ('ColorMixer', 'C:\\GBAPM\\src\\main\\python\\ColorMixer.py', 'PYMODULE'),
-  ('Rgb5toRgb8', 'C:\\GBAPM\\src\\main\\python\\Rgb5toRgb8.py', 'PYMODULE'),
   ('mainwindow', 'C:\\GBAPM\\src\\main\\python\\mainwindow.py', 'PYMODULE'),
   ('JPAL', 'C:\\GBAPM\\src\\main\\python\\JPAL.py', 'PYMODULE'),
+  ('Rgb5toRgb8', 'C:\\GBAPM\\src\\main\\python\\Rgb5toRgb8.py', 'PYMODULE'),
+  ('ColorMixer', 'C:\\GBAPM\\src\\main\\python\\ColorMixer.py', 'PYMODULE'),
+  ('Rgb8toRgb5', 'C:\\GBAPM\\src\\main\\python\\Rgb8toRgb5.py', 'PYMODULE'),
   ('json',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\json\\__init__.py',

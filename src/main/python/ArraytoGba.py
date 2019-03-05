@@ -1,4 +1,4 @@
-#Save to C file.
+#Save to a C file.
 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *

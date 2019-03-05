@@ -1,0 +1,73 @@
+//GBAPM LOG file. Debug purpouses.
+#Main Window: Layouts builded.
+#Open as JSON: File chose. (C:/GBAPM/test.json)
+#Open as JSON: JSON loaded, contents: {'length': 16, 'palette': [[0, 10, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [10, 31, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [9, 17, 18], [0, 0, 0], [0, 0, 0], [0, 0, 0]]}
+#Open as JSON: Length read. (16)
+#Palette handling: Selected index changed. New value: -1
+#Palette handling: Selected index changed. New value: 0
+#Open as JSON: Palette list item added. (0)
+#Open as JSON: Palette list item added. (1)
+#Open as JSON: Palette list item added. (2)
+#Open as JSON: Palette list item added. (3)
+#Open as JSON: Palette list item added. (4)
+#Open as JSON: Palette list item added. (5)
+#Open as JSON: Palette list item added. (6)
+#Open as JSON: Palette list item added. (7)
+#Open as JSON: Palette list item added. (8)
+#Open as JSON: Palette list item added. (9)
+#Open as JSON: Palette list item added. (10)
+#Open as JSON: Palette list item added. (11)
+#Open as JSON: Palette list item added. (12)
+#Open as JSON: Palette list item added. (13)
+#Open as JSON: Palette list item added. (14)
+#Open as JSON: Palette list item added. (15)
+#Open as JSON: Palette data loaded. Content: [[0, 10, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [10, 31, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [9, 17, 18], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+#Open as JSON: File loaded successfully
+#Palette handling: Palette color change requested for index 0.
+#Palette handling: Old value: [0, 10, 0].
+#RGB5 to RGB8: Transformed [0, 10, 0] into [0, 82, 0]. Multiplier: 8.22580645161.
+#Palette handling: Old value RGB8: [0, 82, 0].
+#Palette handling: Color mixer window started.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Palette handling: New value: [0, 0, 0].
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: New value RGB8: [0, 0, 0]
+#Palette handling: Palette output requested for index 0.
+#Palette handling: Current values: Current color: 
+Red: 0
+Green: 0
+Blue: 0
+Hex (16 bit): 0x0000
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: Palette color change requested for index 0.
+#Palette handling: Old value: [0, 0, 0].
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: Old value RGB8: [0, 0, 0].
+#Palette handling: Color mixer window started.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Palette handling: New value: [0, 0, 0].
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: New value RGB8: [0, 0, 0]
+#Palette handling: Palette output requested for index 0.
+#Palette handling: Current values: Current color: 
+Red: 0
+Green: 0
+Blue: 0
+Hex (16 bit): 0x0000
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: Palette color change requested for index 0.
+#Palette handling: Old value: [0, 0, 0].
+#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
+#Palette handling: Old value RGB8: [0, 0, 0].
+#Palette handling: Color mixer window started.
+#RGB8 to RGB5: Transformed [221, 44, 121] into [27, 5, 15]. Divisor: 8.22580645161.
+#Palette handling: New value: [27, 5, 15].
+#RGB5 to RGB8: Transformed [27, 5, 15] into [222, 41, 123]. Multiplier: 8.22580645161.
+#Palette handling: New value RGB8: [222, 41, 123]
+#Palette handling: Palette output requested for index 0.
+#Palette handling: Current values: Current color: 
+Red: 27
+Green: 5
+Blue: 15
+Hex (16 bit): 0x3cbb
+#RGB5 to RGB8: Transformed [27, 5, 15] into [222, 41, 123]. Multiplier: 8.22580645161.

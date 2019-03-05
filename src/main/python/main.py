@@ -1,14 +1,14 @@
 from fbs_runtime.application_context import ApplicationContext
 
 from mainwindow import *
-from ColorMixer import *
 from Export import *
+from log import *
 
 import sys
 
 class AppContext(ApplicationContext):
     def run(self):
-        color_mixer_init()
+        startLogging()
         export_init()
         main_window()
 
