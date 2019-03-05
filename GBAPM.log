@@ -1,73 +1,231 @@
 //GBAPM LOG file. Debug purpouses.
+#Exporter: UI builded.
 #Main Window: Layouts builded.
-#Open as JSON: File chose. (C:/GBAPM/test.json)
-#Open as JSON: JSON loaded, contents: {'length': 16, 'palette': [[0, 10, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [10, 31, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [9, 17, 18], [0, 0, 0], [0, 0, 0], [0, 0, 0]]}
-#Open as JSON: Length read. (16)
+#Open as PAL: File chose. (C:/GBAPM/test.pal)
+#Open as PAL: RAW content loaded. Content: JASC-PAL
+
+0100
+
+16
+
+0 82 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+82 255 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+0 0 0
+
+74 140 148
+
+0 0 0
+
+0 0 0
+
+0 0 0
+#Open as PAL: Valid PAL header.
 #Palette handling: Selected index changed. New value: -1
+#Open as PAL: Size: 16 colors.
+#Open as PAL: RGB colors for index 0 loaded. R: 0. G: 82. B: 0.
+#RGB8 to RGB5: Transformed [0, 82, 0] into [0, 10, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 0 converted to RGB5. Contents: [0, 10, 0]
 #Palette handling: Selected index changed. New value: 0
-#Open as JSON: Palette list item added. (0)
-#Open as JSON: Palette list item added. (1)
-#Open as JSON: Palette list item added. (2)
-#Open as JSON: Palette list item added. (3)
-#Open as JSON: Palette list item added. (4)
-#Open as JSON: Palette list item added. (5)
-#Open as JSON: Palette list item added. (6)
-#Open as JSON: Palette list item added. (7)
-#Open as JSON: Palette list item added. (8)
-#Open as JSON: Palette list item added. (9)
-#Open as JSON: Palette list item added. (10)
-#Open as JSON: Palette list item added. (11)
-#Open as JSON: Palette list item added. (12)
-#Open as JSON: Palette list item added. (13)
-#Open as JSON: Palette list item added. (14)
-#Open as JSON: Palette list item added. (15)
-#Open as JSON: Palette data loaded. Content: [[0, 10, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [10, 31, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [9, 17, 18], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
-#Open as JSON: File loaded successfully
-#Palette handling: Palette color change requested for index 0.
-#Palette handling: Old value: [0, 10, 0].
-#RGB5 to RGB8: Transformed [0, 10, 0] into [0, 82, 0]. Multiplier: 8.22580645161.
-#Palette handling: Old value RGB8: [0, 82, 0].
-#Palette handling: Color mixer window started.
+#Open as PAL: RGB colors for index 1 loaded. R: 0. G: 0. B: 0.
 #RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
-#Palette handling: New value: [0, 0, 0].
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: New value RGB8: [0, 0, 0]
-#Palette handling: Palette output requested for index 0.
-#Palette handling: Current values: Current color: 
-Red: 0
-Green: 0
-Blue: 0
-Hex (16 bit): 0x0000
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: Palette color change requested for index 0.
-#Palette handling: Old value: [0, 0, 0].
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: Old value RGB8: [0, 0, 0].
-#Palette handling: Color mixer window started.
+#Open as PAL: RGB colors for index 1 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 2 loaded. R: 0. G: 0. B: 0.
 #RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
-#Palette handling: New value: [0, 0, 0].
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: New value RGB8: [0, 0, 0]
-#Palette handling: Palette output requested for index 0.
-#Palette handling: Current values: Current color: 
-Red: 0
-Green: 0
-Blue: 0
-Hex (16 bit): 0x0000
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: Palette color change requested for index 0.
-#Palette handling: Old value: [0, 0, 0].
-#RGB5 to RGB8: Transformed [0, 0, 0] into [0, 0, 0]. Multiplier: 8.22580645161.
-#Palette handling: Old value RGB8: [0, 0, 0].
-#Palette handling: Color mixer window started.
-#RGB8 to RGB5: Transformed [221, 44, 121] into [27, 5, 15]. Divisor: 8.22580645161.
-#Palette handling: New value: [27, 5, 15].
-#RGB5 to RGB8: Transformed [27, 5, 15] into [222, 41, 123]. Multiplier: 8.22580645161.
-#Palette handling: New value RGB8: [222, 41, 123]
-#Palette handling: Palette output requested for index 0.
-#Palette handling: Current values: Current color: 
-Red: 27
-Green: 5
-Blue: 15
-Hex (16 bit): 0x3cbb
-#RGB5 to RGB8: Transformed [27, 5, 15] into [222, 41, 123]. Multiplier: 8.22580645161.
+#Open as PAL: RGB colors for index 2 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 3 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 3 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 4 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 4 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 5 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 5 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 6 loaded. R: 82. G: 255. B: 0.
+#RGB8 to RGB5: Transformed [82, 255, 0] into [10, 31, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 6 converted to RGB5. Contents: [10, 31, 0]
+#Open as PAL: RGB colors for index 7 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 7 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 8 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 8 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 9 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 9 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 10 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 10 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 11 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 11 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 12 loaded. R: 74. G: 140. B: 148.
+#RGB8 to RGB5: Transformed [74, 140, 148] into [9, 17, 18]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 12 converted to RGB5. Contents: [9, 17, 18]
+#Open as PAL: RGB colors for index 13 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 13 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 14 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 14 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: RGB colors for index 15 loaded. R: 0. G: 0. B: 0.
+#RGB8 to RGB5: Transformed [0, 0, 0] into [0, 0, 0]. Divisor: 8.22580645161.
+#Open as PAL: RGB colors for index 15 converted to RGB5. Contents: [0, 0, 0]
+#Open as PAL: File loaded successfully.
+#Exporter: Padding enabler state changed. New state: True
+#Exporter: Datatype changed. New datatype: u32
+#Exporter: Datatype changed. New datatype: u16
+#Exporter: Padding enabler state changed. New state: False
+#Exporter: Padding enabler state changed. New state: True
+#Exporter: Padding limit changed. New limit: 4
+#Exporter: Padding limit changed. New limit: 2
+#Exporter: Padding limit changed. New limit: 8
+#Exporter: Padding limit changed. New limit: 16
+#Exporter: Padding limit changed. New limit: 2
+#Exporter: New export request. Handling...
+#Exporter: Palette padded.
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#RGB5 to u16: Colors clipped. ([0, 0, 0])
+#RGB5 to u16: Colors joined together. (0)
+#RGB5 to u16: Color converted to hex. (0)
+#RGB5 to u16: Color filled. (0000)
+#RGB5 to u16: Hex symbol added. (0x0000)
+#Exporter: Palette converted to selected datatype. (u16)
+#Exporter: File chose. (C:/GBAPM/test.c)
+#Array to GBA: Header path builded. (C:/GBAPM/test.h)
+#Array to GBA: C file top builded. Contents: //  GBA palette, imported by L!no's GBA palette manager.
+//  Type: unsigned short.
+//  Length: 16.
+//  Length (In bytes): 32.
+//  File basename: test.
+
+
+#Array to GBA: H file top builded. Contents: //  GBA palette, imported by L!no's GBA palette manager.
+//  Type: unsigned short.
+//  Length: 16.
+//  Length (In bytes): 32.
+//  File basename: test.
+
+
+#Array to GBA: C file builded. Contents: //  GBA palette, imported by L!no's GBA palette manager.
+//  Type: unsigned short.
+//  Length: 16.
+//  Length (In bytes): 32.
+//  File basename: test.
+
+const unsigned short testPalette[16] __attribute__((aligned(4))) __attribute__((visibility("hidden"))) =
+{
+	0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+	0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+	0x0000, 
+};
+#Array to GBA: C file saved.
+#Array to GBA: H file builded. Contents: //  GBA palette, imported by L!no's GBA palette manager.
+//  Type: unsigned short.
+//  Length: 16.
+//  Length (In bytes): 32.
+//  File basename: test.
+
+#ifndef TEST_PAL_H
+#define TEST_PAL_H
+
+#define testPaletteLength 32
+extern const unsigned short testPalette[16];
+
+#endif //TEST_PAL_H
+#Array to GBA: H file saved.
+#Exporter: Exported successfully.

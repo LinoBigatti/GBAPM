@@ -1,6 +1,6 @@
 //  GBA palette, imported by L!no's GBA palette manager.
-//  Type: unsigned int.
-//  Length: 8.
+//  Type: unsigned short.
+//  Length: 16.
 //  Length (In bytes): 32.
 //  File basename: test.
 
@@ -8,6 +8,6 @@
 #define TEST_PAL_H
 
 #define testPaletteLength 32
-extern const unsigned int testPalette[8];
+extern const unsigned short testPalette[16];
 
 #endif //TEST_PAL_H

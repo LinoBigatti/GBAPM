@@ -1,17 +1,19 @@
 #Transform two RGB5 colors to a u32 (unsigned int)
 
 from Rgb5toU16 import *
+from log import *
 
 def RGB5tou32(r1, g1, b1, r2, g2, b2):
     RGB1 = RGB5tou16(r1, g1, b1)
     RGB1 = RGB1[2:]
+    trace("RGB5 to u32", "First half built. (" + RGB1 + ")")
     
     RGB2 = RGB5tou16(r2, g2, b2)
     RGB2 = RGB2[2:]
-    
-    print(RGB1)
+    trace("RGB5 to u32", "Second half built. (" + RGB2 + ")")
     
     RGB = RGB2 + RGB1
     RGB = "0x" + RGB
+    trace("RGB5 to u32", "Full color built. (" + RGB + ")")
     
     return RGB
