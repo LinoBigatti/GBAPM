@@ -14,24 +14,44 @@ from JPAL import *
 from log import *
 
 main_app = QApplication([])
-main_root = QWidget()
+main_root = QMainWindow()
+main_widget = QWidget()
 pal_list = QComboBox()
 pal_index_counter = 15
 
 def main_window():
     main_root.setWindowTitle('GBA Palette Manager.')
     main_app.setStyle('Fusion')
+    main_menu = main_root.menuBar()
+    file_menu = main_menu.addMenu('File')
     layout0 = QHBoxLayout()
     layout1 = QHBoxLayout()
-    layout2 = QHBoxLayout()
-    layout3 = QHBoxLayout()
     layout = QVBoxLayout()
     
-    open_json_button = QPushButton("Open JSON.")
-    open_json_button.clicked.connect(openjson)
+    open_json_button = QAction("Open JSON.")
+    open_json_button.setStatusTip("Open a .json file.")
+    open_json_button.setShortcut('Ctrl+Shift+J')
+    open_json_button.triggered.connect(openjson)
     
-    open_pal_button = QPushButton("Open PAL.")
-    open_pal_button.clicked.connect(openpal)
+    open_pal_button = QAction("Open PAL.")
+    open_pal_button.setStatusTip("Open a .pal file.")
+    open_pal_button.setShortcut('Ctrl+Shift+P')
+    open_pal_button.triggered.connect(openpal)
+    
+    save_json_button = QAction("Save as JSON.")
+    save_json_button.setStatusTip("Save as a .json file.")
+    save_json_button.setShortcut('Ctrl+J')
+    save_json_button.triggered.connect(savejson)
+    
+    save_pal_button = QAction("Save as PAL.")
+    save_pal_button.setStatusTip("Save as a .pal file.")
+    save_pal_button.setShortcut('Ctrl+P')
+    save_pal_button.triggered.connect(savepal)
+    
+    export_button = QAction("Export to C.")
+    export_button.setStatusTip("Export to a .c file. (GBA)")
+    export_button.setShortcut('Ctrl+E')
+    export_button.triggered.connect(exportfile)
     
     for i in range(0, 16):
         pal_list.addItem(str(i))
@@ -49,36 +69,25 @@ def main_window():
     show_pal_index_button = QPushButton("Show the current palette index color.")
     show_pal_index_button.clicked.connect(showpalindex)
     
-    save_json_button = QPushButton("Save as JSON.")
-    save_json_button.clicked.connect(savejson)
+    file_menu.addAction(open_json_button)
+    file_menu.addAction(open_pal_button)
+    file_menu.addAction(save_json_button)
+    file_menu.addAction(save_pal_button)
+    file_menu.addAction(export_button)
     
-    save_pal_button = QPushButton("Save as PAL.")
-    save_pal_button.clicked.connect(savepal)
+    layout0.addWidget(pal_list)
+    layout0.addWidget(pal_size_label)
+    layout0.addWidget(pal_size_list)
     
-    export_button = QPushButton("Export to C.")
-    export_button.clicked.connect(exportfile)
-    
-    layout0.addWidget(open_json_button)
-    layout0.addWidget(open_pal_button)
-    
-    layout1.addWidget(pal_list)
-    layout1.addWidget(pal_size_label)
-    layout1.addWidget(pal_size_list)
-    
-    layout2.addWidget(edit_pal_index_button)
-    layout2.addWidget(show_pal_index_button)
-    
-    layout3.addWidget(save_json_button)
-    layout3.addWidget(save_pal_button)
-    layout3.addWidget(export_button)
+    layout1.addWidget(edit_pal_index_button)
+    layout1.addWidget(show_pal_index_button)
     
     layout.addLayout(layout0)
     layout.addLayout(layout1)
-    layout.addLayout(layout2)
-    layout.addLayout(layout3)
     trace("Main Window", "Layouts builded.")
     
-    main_root.setLayout(layout)
+    main_widget.setLayout(layout)
+    main_root.setCentralWidget(main_widget)
     
     main_root.show()
     main_app.exec_()

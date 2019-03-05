@@ -1,15 +1,15 @@
 ('C:\\GBAPM\\target\\PyInstaller\\GBA_Palette_Manager\\PYZ-00.pyz',
- [('_strptime',
+ [('ntpath',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('_strptime',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\_strptime.py',
    'PYMODULE'),
   ('datetime',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\datetime.py',
-   'PYMODULE'),
-  ('ntpath',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\ntpath.py',
    'PYMODULE'),
   ('stringprep',
    'c:\\program files (x86)\\microsoft visual '
@@ -459,34 +459,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('token',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\token.py',
-   'PYMODULE'),
-  ('textwrap',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\textwrap.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\struct.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\gettext.py',
-   'PYMODULE'),
-  ('argparse',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\argparse.py',
-   'PYMODULE'),
-  ('tokenize',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\tokenize.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python36_64\\lib\\copy.py',
-   'PYMODULE'),
   ('stat',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\stat.py',
@@ -534,6 +506,34 @@
   ('os',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python36_64\\lib\\os.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\token.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\gettext.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\argparse.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python36_64\\lib\\copy.py',
    'PYMODULE'),
   ('log', 'C:\\GBAPM\\src\\main\\python\\log.py', 'PYMODULE'),
   ('Export', 'C:\\GBAPM\\src\\main\\python\\Export.py', 'PYMODULE'),
