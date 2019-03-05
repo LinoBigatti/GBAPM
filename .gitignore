@@ -1,0 +1,7 @@
+# Ignore compiled files.
+**/*.exe
+**/*.pyo
+# Ignore releases.
+*.rar
+# Ignore log files.
+*.log
